@@ -1,0 +1,4 @@
+# Dependecias del proyecto.
+pyqt5
+gtts
+playsound
