@@ -1,18 +1,16 @@
-# Importación de librerías necesarias
-from gtts import gTTS  # Librería para convertir texto a voz
-from utils.functions import getTextUser, getTextFile 
+from utils.functions import *
 
-def main():
+def textToSpeech():
     # Mostrar opciones al usuario
     print('Seleccione cómo desea convertir el texto:')
     print('1. Escribir texto')
     print('2. Seleccionar texto del sistema')
     
     # Leer la opción seleccionada por el usuario
-    opcion = input('\n')
+    option = input('\n→')
 
     # Procesar la opción seleccionada
-    match opcion:
+    match option:
         case '1':
             # Obtener texto ingresado directamente por el usuario
             text = getTextUser()
@@ -39,4 +37,4 @@ def main():
     print(f'El archivo de audio se ha guardado como {file}.')
 
 if __name__ == '__main__':
-    main()
+    textToSpeech()

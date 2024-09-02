@@ -1,4 +1,6 @@
 # Dependecias del proyecto.
-pyqt5
-gtts
+PyQt5
+gTTS
 playsound
+setuptools
+SpeechRecognition
