@@ -4,3 +4,4 @@ gTTS
 playsound
 setuptools
 SpeechRecognition
+pyaudio
